@@ -1,0 +1,346 @@
+<!doctype html><!--文档信息-->
+<html lang="en"><!--根标签-->
+ <head><!--网页头部-->
+  <meta charset="UTF-8"><!--字符编码-->
+  <meta name="Generator" content="EditPlus®"><!--编辑器-->
+  <meta name="Author" content="02"><!--作者-->
+  <!--网站三要素: 关键字 网页描述 标题-->
+  <meta name="Keywords" content="02、网页"><!--关键字-->
+  <meta name="Description" content=""><!--网页描述-->
+  <meta name="Viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,maximum-scale=1">
+  <script>
+        var html = document.querySelector('html');
+        rem();
+        window.addEventListener('resize',function () {
+            rem();
+        })
+        function rem() {
+            var width = html.getBoundingClientRect().width;
+            html.style.fontSize = width/10+ 'px';
+        }
+  </script>
+  <title>阴阳师-移动端</title><!--网站标题-->
+  <link rel="stylesheet"type="text/css"href="css/swiper-4.1.6.min.css">
+  <link rel='stylesheet'type='text/css'href='css/reset.css'>
+  <link rel="stylesheet"type="text/css"href="css/style.css">
+ </head>
+ <body><!--网页主体-->
+	<div id='main'>
+		<header class='download'>
+			<div class='logo f-l'><img src='img/96.png'width='94%'height='94%'/></div>
+			<div class='title f-l'>
+				<h1>阴阳师</h1>
+                <h2>网易和匠心巨制</h2>
+			</div>
+			<div class='down f-r'><img src='img/download.png'width='80%'height='80%'/></div>
+		</header>
+		<!-- 轮播图开始 -->
+		<section class='banner swiper-container'>
+			<ul class='swiper-wrapper'>
+				<li class='swiper-slide'>
+					<a href=""><img src="img/silde1.jpg" width="100%" height="100%" alt=""/></a>
+				</li>
+                <li class='swiper-slide'>
+					<a href=""><img src="img/silde2.jpg" width="100%" height="100%" alt=""/></a>
+				</li>
+                <li class='swiper-slide'>
+					<a href=""><img src="img/silde3.jpg" width="100%" height="100%" alt=""/></a>
+				</li>
+                <li class='swiper-slide'>
+					<a href=""><img src="img/silde4.jpg" width="100%" height="100%" alt=""/></a>
+				</li>
+                <li class='swiper-slide'>
+					<a href=""><img src="img/silde5.jpg" width="100%" height="100%" alt=""/></a>
+				</li>
+			</ul>
+			<!-- 分页器 -->
+			<p class='dot swiper-pagination swiper-pagination-bullets'>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</p>
+		</section>
+		<!-- 轮播图结束 -->
+		<!-- 预约豪礼开始 -->
+		<section class='content1'>
+			<img src='img/part.jpg'width='100%'/>
+		</section>
+		<!-- 预约豪礼结束 -->
+		<!-- appstore开始 -->
+		<section class='appstore'>
+			<div class='content'>
+				<div class='app-logo'>
+					<img src='img/app.png'width='40%'height='70%'/>
+				</div>
+				<div class='title'></div>
+				<section class='tab'>
+					<nav>
+						<ul>
+						   <li class="on">最新</li>
+                           <li></li>
+                           <li>新闻</li>
+                           <li></li>
+                           <li>公告</li>
+                           <li></li>
+                           <li>活动</li>
+                           <li></li>
+                           <li>资料片</li>
+                           <li></li>
+                           <li>更多</li>
+						</ul>
+					</nav>
+					<div class='animate'>
+						<div class='active clearfix'>
+							<div class='a-left f-l'>
+								<img src='img/tip.png'width='100%'height='100%'alt=''/>
+							</div>
+							<div class='a-right f-l'>网易CEO丁磊 · <span>考拉点卡充值</span>
+							</div>
+						</div>
+						<ul class='lists'>
+							<li>年末雪华《阴阳师》全新资料片新年祭即将开启</li>
+							<li>玩转平安京·助手福利大放送</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+		</section>
+		<!-- app-store结束 -->
+		<!-- 阴阳师手册开始 -->
+		<section>
+			<div class='book'>
+				<div class='title'></div>
+				<ul class='nav'>
+					<li>
+						<a href=''><img src='img/gameInfo1.png'alt=''/><span>游戏特色</span></a>
+					</li>
+					<li>
+						<a href=''><img src='img/gameInfo2.png'alt=''/><span>大事记</span></a>
+					</li>
+					<li>
+						<a href=''><img src='img/gameInfo3.png'alt=''/><span>开服计划</span></a>
+					</li>
+					<li>
+						<a href=''><img src='img/gameInfo4.png'alt=''/><span>游戏日历</span></a>
+					</li>
+					<li>
+						<a href=''><img src='img/gameInfo5.png'alt=''/><span>悬赏封印</span></a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<!-- 阴阳师手册结束 -->
+		<!-- 天机谱开始 -->
+		<section class='spectral'>
+			<div class='content'>
+				<div class='title'></div>
+				<div class='help'>
+					<div class='h-left'>
+						<p>天机谱</p>
+                        <p>有奖攻略计划</p>
+					</div>
+					<div class='h-right'>
+						<p>新手帮助</p>
+                        <p>热门十大问题</p>
+					</div>
+				</div>
+				<section class='tab'>
+					<nav>
+						<ul>
+						   <li class="on">最新</li>
+                            <li></li>
+                            <li>新手</li>
+                            <li></li>
+                            <li>式神</li>
+                            <li></li>
+                            <li>副本</li>
+                            <li></li>
+                            <li>玩法</li>
+                            <li></li>
+                            <li>更多</li>
+						</ul>
+					</nav>
+					<div class='animate'>
+						<ul class='lists'>
+							<li>海雾沧浪，海坊主秘闻副本通关攻略！</li>
+							<li>SR海坊主：请问这是您要的剁椒鱼头吗？</li>
+							<li>SR日和坊：日丽风和，好运将至！</li>
+							<li>简单清晰的结界卡合成方法</li>
+							<li>【NGA】被遗忘的R卡，古笼火在椒图阵容横行的现版本斗鸡使用心得分享</li>
+						</ul>
+					</div>
+				</section>
+				<div class='search'>
+					<input type='search'placeholder='请输入寮间问题'>
+				</div>
+			</div>
+		</section>
+		<!-- 天机谱结束 -->
+		<!-- 同人赏开始 -->
+		<section class='reward'>
+			<div class='content'>
+				<div class='title'></div>
+				<section class='tab'>
+					<nav>
+						<ul>
+						   <li class="on">精选</li>
+                            <li></li>
+                            <li>同人绘</li>
+                            <li></li>
+                            <li>玩家COS</li>
+                            <li></li>
+                            <li>同人</li>
+                            <li></li>
+                            <li>更多</li>
+						</ul>
+					</nav>
+					<div class='animate'>
+						<ul class='lists'>
+							<li>凤凰于飞 梧桐是依【作者】茄茄茄茄茄茄_茄</li>
+							<li>莲~连【作者】月下十六夜</li>
+							<li>阴阳师X滑头鬼联动~【作者】人才VS天才</li>                               
+							<li>一个声优梗【作者】Kaki_Rin</li>
+						</ul>
+					</div>
+				</section>
+				<section class='ad'>
+					<div><img src='img/ad1.png'width='100%'height='100%'alt=''/></div>
+					<div><img src='img/ad2.png'width='100%'height='100%'alt=''/></div>
+				</section>
+			</div>
+		</section>
+		<!-- 同人赏结束 -->
+		<!-- 主角录开始 -->
+		<section class='hero'>
+			<div class='content'>
+				<div class='title'></div>
+				<section class='cont'>
+					<div class='bottom'><i class='bg-hero1'></i></div>
+					<div class='top'>
+						<ul>
+							<li>
+								<div class="img"><img src="img/hero1.png" alt="" width="100%" height="100%"></div>
+							</li>
+							<li>
+								<div class="img"><img src="img/hero2.png" alt="" width="100%" height="100%"></div>
+							</li>
+							<li>
+								<div class="img"><img src="img/hero3.png" alt="" width="100%" height="100%"></div>
+							</li>
+							<li>
+								<div class="img"><img src="img/hero4.png" alt="" width="100%" height="100%"></div>
+							</li>
+						</ul>
+					</div>
+					<p class='dot'>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</p>
+				</section>
+			</div>
+		</section>
+		<!-- 主角录结束 -->
+		<!-- 式神录开始 -->
+		<section class='character'>
+			<div class='title'></div>
+			<ul class="scroll ">
+				<li><a href=""><img src="img/scroll1.png" width="100%" height="100%" alt=""></a></li>
+				<li><a href=""><img src="img/scroll2.png" width="100%" height="100%" alt=""></a></li>
+				<li><a href=""><img src="img/scroll3.png" width="100%" height="100%" alt=""></a></li>
+				<li><a href=""><img src="img/scroll4.png" width="100%" height="100%" alt=""></a></li>
+				<li><a href=""><img src="img/scroll5.png" width="100%" height="100%" alt=""></a></li>
+			</ul>
+			<ul class="scroll ">
+				<li><a href=""><img src="img/scroll2-1.png" width="100%" height="100%" alt=""></a></li>
+				<li><a href=""><img src="img/scroll2-2.png" width="100%" height="100%" alt=""></a></li>
+				<li><a href=""><img src="img/scroll2-3.png" width="100%" height="100%" alt=""></a></li>
+				<li><a href=""><img src="img/scroll2-4.png" width="100%" height="100%" alt=""></a></li>
+				<li><a href=""><img src="img/scroll2-5.png" width="100%" height="100%" alt=""></a></li>
+			</ul>
+			<div class='more'></div>
+		</section>
+		<!-- 式神录结束 -->
+		<!-- 活动区开始 -->
+		<section class='activity'>
+			<div class='content'>
+				<div class='title'></div>
+				<ul>
+					<li>
+						<a href='#'><div><img src="img/activity1.png" width="100%" height="100%" alt=""></div>
+                            <p>《阴阳师》未来计划重磅发布</p></a>
+					</li>
+					<li>
+                        <a href=""><div><img src="img/activity2.png" width="100%" height="100%" alt=""></div>
+                            <p>阴阳师助手APP上线</p>
+                        </a>
+                    </li>
+				</ul>
+				<ul>
+                    <li>
+                        <a href=""><div><img src="img/activity3.png" width="100%" height="100%" alt=""></div>
+                            <p>神秘商人 现身平京</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""><div><img src="img/activity4.png" width="100%" height="100%" alt=""></div>
+                            <p>脑洞大逆购</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href=""><div><img src="img/activity5.jpg" width="100%" height="100%" alt=""></div>
+                            <p>阴阳师x滑头鬼之孙联动主题故事征集</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""><div><img src="img/activity6.png" width="100%" height="100%" alt=""></div>
+                            <p>奴良陆生登陆平安京</p>
+                        </a>
+                    </li>
+                </ul>
+			</div>
+		</section>
+		<!-- 活动区结束 -->
+		<!-- 游戏下载专区开始 -->
+		<section class='gameload'>
+			<p>阴阳师远远不止这些</p>
+			<div><a href='#'>下载游戏</a></div>
+		</section>
+		<!-- 游戏下载专区结束 -->
+		<!-- footer开始 -->
+		<footer>
+			<div class='info'></div>
+			<div class='tel'>
+				<p>客服电话</p><p>0571-26201179</p>
+			</div>
+			<div class='copyright'>
+				<p>网易公司版权所有 ©1997-2017</p><p>文网游备字【2016】M-RPG4708号</p><p>浙网文[2016]0155-055号</p>
+			</div>
+		</footer>
+		<!-- footer结束 -->
+	</div>
+	<script type='text/javascript' src='js/swiper-4.1.6.min.js'></script>
+	<script>        
+	  var mySwiper = new Swiper ('.swiper-container', {
+		  direction: 'horizontal',
+		  autoplay:true,
+		  loop: true,
+		// 如果需要分页器
+		pagination: {
+		  el: '.swiper-pagination'
+		},		
+		// 如果需要前进后退按钮
+		navigation: {
+		  nextEl: '.swiper-button-next',
+		  prevEl: '.swiper-button-prev'
+		}		
+	  })        
+	    </script>
+ </body>
+</html>
